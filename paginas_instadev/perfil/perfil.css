@@ -1,0 +1,160 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container_perfil{
+    display: flex;
+    padding: 50px;
+}
+
+.foto_perfil{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box_perfil{
+    width: 50%;
+    margin-left: 10%;
+    /* background-color: var(--cinza); */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.perfil_linha1{
+    font-size: 26px;
+}
+
+.perfil_linha2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.perfil_linha3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil_linha3 p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.perfil_linha3 a{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul);
+}
+
+
+
+
+
+.links_navegacao{
+    padding: 20px 20%;
+    /* background-color: var(--azul); */
+    border-top: 1px solid var(--cinza);
+    margin-bottom: 20px;
+}
+
+.link_navegacao{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+}
+
+.icone_links{
+    width: 16px;
+    margin-right: 6px;
+}
+
+
+
+
+.card_publicacoes{
+    display: flex;
+    background-color: white;
+    padding-right: 20px;
+}
+
+.card_img{
+    height: 400px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.container_card_info{
+    padding-left: 30px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card_info_header{
+    display: flex;
+    /* margin-bottom: 30px; */
+}
+
+.card_img_perfil{
+    width: 65px;
+    border-radius: 50%;
+}
+
+.card_info_header_p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.card_info_header_p :first-child{
+    font-weight: 700;
+}
+
+.card_info_linha1{
+    /* margin-bottom: 30px; */
+}
+
+.card_info_linha1_imgs{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.card_info_linha1_imgs img{
+    width: 24px;
+    margin-right: 20px;
+}
+
+.card_lista li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 10px;
+}
+
+.card_lista_item_p{
+    display: flex;
+}
+
+.card_lista_item_p :first-child{
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.card_lista li img{
+    width: 16px;
+}
+
+.card_ver_todos{
+    color: var(--cinza-escuro);
+    margin-bottom: 0;
+}
